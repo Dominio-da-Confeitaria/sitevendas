@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domínio da Confeitaria</title>
+    <link rel="stylesheet" href="dominio.css">
+    <link rel="stylesheet" href="reset.css">
+    <script defer src="javascript.js/pedido.js"></script>
+    <script defer src="javascript.js/tipodebolo.js"></script>
+    <script defer src="javascript.js/massasdebolo.js"></script>
+    <script defer src="javascript.js/coberturadebolo.js"></script>
+    <script defer src="javascript.js/recheiosdebolo.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;700&family=Roboto+Mono:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body class="textos">
+    <header class="cabecalho">
+        <div class="cabecalho-geral">
+            <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">    
+                    <span class="cabecalho__menu-hamburguer container__imagem"></span>
+                </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__titulo">Categorias</li>
+                          <li class="lista-menu__item"><a href="#" class="lista-menu__link">Sobre nós</a></li>
+                    </ul>
+        <img class="container__imagem" src="imagens/logo.jpg" alt="Logo do Domínio da Confeitaria">
+        <h1 class="container__titulo">
+         Domínio da Confeitaria
+        </h1>
+    </div>
+    </header>
+
+
+
+    <section class="produtos">
+        
+        <h1 class="titulo-produtos">
+            nossos produtos
+        </h1>
+
+        <h1 class="produtos-texto">
+            Aperte para ver as opções de nossos produtos
+        </h1>
+
+        <div class="produtos-borda">
+            <h2 class="produtos-nome">
+                Bolo
+            </h2>
+            <img class="produtos-fotos" src="imagens/bolo-chocolate.png" alt="Foto do Bolo">
+        </div>
+
+        <div class="produtos-borda">
+            <h2 class="produtos-nome">
+                Salgados
+            </h2>
+            <img class="produtos-fotos" src="imagens/salgados.png" alt="Foto de um Pastel">
+        </div>
+
+        <div class="produtos-borda">
+            <h2 class="produtos-nome">
+                Doces
+            </h2>
+            <img class="produtos-fotos" src="imagens/doces.png" alt="Foto de um Brigadeiro">
+        </div>
+    </section>
+
+
+
+    <section class="botoes">
+
+        <h1 class="botao-titulo">Faça seu Pedido</h1>
+        <h1 class="texto-botao">Escolha os tópicos que deseja</h1>
+
+        <button id="botao-bolo" class="botao botao-nome">
+            Bolo
+        <img class="botao-fotos" src="imagens/bolo-chocolate.png" alt="Foto do Bolo">
+    </button>
+
+            <button id="botao-salgados" class="botao botao-nome">
+                    Salgados
+                <img class="botao-fotos" src="imagens/salgados.png" alt="Foto de um Pastel">
+    </button>
+
+            <button id="botao-doce" class="botao botao-nome">
+                    Doces
+                <img class="botao-fotos" src="imagens/doces.png" alt="Foto de um Brigadeiro">
+            </button>
+        
+        </section>
+
+    
+
+        <div class="tiposdebolo">
+
+        <p class="texto-botao">Escolha o tipo de bolo</p>
+
+        <div class="apenastiposdebolo">
+
+            <div class="bolo-padrao">
+
+            <button id="bolopadrao" class="botao botao-nome botao-tipo">
+                    <p>Bolo Padrão</p>
+                <img class="botao-fotos" src="imagens/bolopadrao.png" alt="Foto do Bolo Padrão">
+            </button>
+        
+            </div>
+
+            <div class="bolo-cobertura">
+
+            <button id="bolocomcobertura" class="botao botao-nome botao-tipo">
+                    <p>Bolo com Cobertura</p>
+                <img class="botao-fotos" src="imagens/bolocomcobertura.png" alt="Foto do Bolo com Cobertura">
+            </button>
+
+            </div>
+
+            <div class="bolo-confeitado">
+
+            <button id="boloconfeitado" class="botao botao-nome botao-tipo">
+                    <p>Bolo Confeitado</p>
+                <img class="botao-fotos" src="imagens/boloconfeitado.png" alt="Foto do Bolo Confeitado">
+            </button>
+
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+        <div class="massasdebolo">
+
+            <p class="texto-botao">Escolha a Massa</p>
+
+            <div class="apenasmassasdebolo">
+
+        <div class="massadechocolate">
+
+            <button id="botaodamassadechocolate" class="botao-nome botao botao-massachocolate botao-massa">
+                    <p>Chocolate</p>
+                <img class="botao-fotos" src="imagens/massachocolate.png" alt="Foto do Bolo Padrão de Chocolate">
+            </button>
+
+        </div>
+
+        <div class="massadecenoura">
+
+            <button id="botaodamassadecenoura" class="botao-nome botao botao-massacenoura botao-massa">
+                    <p>Cenoura</p>
+                <img class="botao-fotos" src="imagens/massacenoura.png" alt="Foto do Bolo Padrão de Cenoura">
+            </button>
+
+        </div>
+
+        <div class="massadebaunilha">
+
+            <button id="botaodamassadebaunilha" class="botao-nome botao botao-massabaunilha botao-massa">
+                    <p>Baunilha</p>
+                <img class="botao-fotos" src="imagens/massabaunilha.png" alt="Foto do Bolo Padrão de Baunilha">
+            </button>
+
+        </div>
+
+        </div>
+
+        </div>
+
+
+        <div class="coberturasdebolo">
+
+            <p class="texto-botao">Escolha a Cobertura</p>
+
+            <div class="apenascoberturasdebolo">
+
+        <div class="coberturadechocolate">
+
+            <button id="botaodacoberturadechocolate" class="botao botao-coberturachocolate botao-nome botao-tipo">
+                    <p>Chocolate</p>
+                <img class="botao-fotos" src="imagens/coberturachocolate.png" alt="Foto do Bolo com Cobertura de Chocolate">
+            </button>
+
+        </div>
+
+        <div class="coberturadechantily">
+
+            <button id="botaodacoberturadechantily" class="botao botao-coberturachantily botao-nome botao-tipo">
+                    <p>Chantily</p>
+                <img class="botao-fotos" src="imagens/coberturachantily.png" alt="Foto do Bolo com Cobertura de Chantily">
+            </button>
+
+        </div>
+
+        <div class="coberturadechocolatebranco">
+
+            <button id="botaodacoberturadechocolatebranco" class="botao botao-coberturachocolatebranco botao-nome botao-tipo">
+                    <p>Chocolate Branco</p>
+                <img class="botao-fotos" src="imagens/coberturachocolatebranco.png" alt="Foto do Bolo com Cobertura de Chocolate Branco">
+            </button>
+
+            </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="recheiosdobolo">
+
+            <p class="texto-botao">Escolha o Recheio</p>
+
+            <div class="apenasrecheiosdebolo">
+
+            <div class="recheiodechocolate">
+
+            <button id="botaodorecheiodechocolate" class="botao botao-recheiochocolate botao-nome botao-tipo">
+                    <p>Chocolate</p>
+                <img class="botao-fotos" src="imagens/completochocolate.png" alt="Foto do Bolo Confeitado de Chocolate">
+            </button>
+
+            </div>
+
+            <div class="recheiodechocolatebranco">
+
+            <button id="botaodorecheiodechocolatebranco" class="botao botao-recheiochocolatebranco botao-nome botao-tipo">
+                    <p>Chocolate Branco</p>
+                <img class="botao-fotos" src="imagens/completochocolatebranco.png" alt="Foto do Bolo Confeitado de Chocolate Branco">
+            </button>
+
+            </div>
+
+            <div class="recheiodeprestigio">
+
+            <button id="botaodorecheiodeprestigio" class="botao botao-recheioprestigio botao-nome botao-tipo">
+                    <p>Prestígio</p>
+                <img class="botao-fotos" src="imagens/completoprestigio.png" alt="Foto do Bolo Confeitado de Prestígio">
+            </button>
+
+            </div>
+
+            </div>
+
+        </div>
+
+
+</body>
+</html>

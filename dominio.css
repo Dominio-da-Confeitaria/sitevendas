@@ -1,0 +1,20 @@
+@import url("estilos.css/header.css");
+@import url("estilos.css/produtos.css");
+@import url("estilos.css/botao.css");
+@import url("estilos.css/pedidos.css");
+
+:root{
+    --fonte-principal: "Roboto Mono";
+    --laranja: #ffa500;
+    --branco: #ffffff;
+    --marrom: #5d2906;
+    --joao: #000000;
+    --palmeiras: #088c19;
+}
+
+.textos{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    background-color: var(--laranja);
+}
