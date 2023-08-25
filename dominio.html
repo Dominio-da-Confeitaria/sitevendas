@@ -13,6 +13,8 @@
     <script defer src="dominio.js/massasdebolo.js"></script>
     <script defer src="dominio.js/coberturadebolo.js"></script>
     <script defer src="dominio.js/recheiosdebolo.js"></script>
+    <script defer src="dominio.js/salgados.js"></script>
+    <script defer src="dominio.js/doces.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;700&family=Roboto+Mono:wght@200;400;600&display=swap" rel="stylesheet">
@@ -265,42 +267,54 @@
 
             <div class="primeiralinha">
 
-            <div class="coxinhas">
+            <div>
 
                 <button id="botaocoxinhas" class="botao botao-nome">
                         <p>Coxinhas</p><p class="toque">batata</p>
                     <img class="botao-fotos" src="imagens/coxinha.jpeg" alt="Foto de uma Coxinha">
-                    <form id="quantidadecoxinhas">
-                        <label for="quantidade-coxinhas">Quantidade:</label>
-                        <input type="number" id="quantidade-coxinhas" name="quantidade-coxinhas" min="1" max="200">
-                    </form>
+                    
                 </button>
+
+                <div class="coxinhas">
+                <form id="quantidadecoxinhas">
+                    <div><label for="quantidade-coxinhas">Quantidade:</label></div>
+                    <div><input type="number" id="quantidade-coxinhas" name="quantidade-coxinhas" min="1" max="200" value=""></div>
+                </form>
+            </div>
     
                 </div>
 
-                <div class="minihamburguer">
+                <div>
 
                     <button id="botaominihamburguer" class="botao botao-nome">
                             <p>Mini</p><p>Hamburguer</p>
                         <img class="botao-fotos" src="imagens/minihamburguer.jpeg" alt="Foto de um Mini-Hamburguer">
-                        <form id="quantidademinihamburguer">
-                            <label for="quantidade-minihamburguer">Quantidade:</label>
-                            <input type="number" id="quantidade-minihamburguer" name="quantidade-minihamburguer" min="1" max="200">
-                        </form>
+                        
                     </button>
+
+                    <div class="minihamburguer">
+                    <form id="quantidademinihamburguer">
+                        <div><label for="quantidade-minihamburguer">Quantidade:</label></div>
+                        <div><input type="number" id="quantidade-minihamburguer" name="quantidade-minihamburguer" min="1" max="200" value=""></div>
+                    </form>
         
                     </div>
 
-                    <div class="minipastel">
+                </div>
+
+                    <div>
 
                         <button id="botaominipastel" class="botao botao-nome">
-                                <p>Mini-Pastel</p><p class="toque">batata</p>
+                                <p>Mini</p><p>Pastel</p>
                             <img class="botao-fotos" src="imagens/pastel.jpeg" alt="Foto de um Mini-Pastel">
-                            <form id="quantidademinipastel">
-                                <label for="quantidade-minipastel">Quantidade:</label>
-                                <input type="number" id="quantidade-minipastel" name="quantidade-minipastel" min="1" max="200">
-                            </form>
                         </button>
+
+                        <div class="minipastel">
+                            <form id="quantidademinipastel">
+                                <div><label for="quantidade-minipastel">Quantidade:</label></div>
+                                <div><input type="number" id="quantidade-minipastel" name="quantidade-minipastel" min="1" max="200" value=""></div>
+                            </form>
+                        </div>
             
                         </div>
 
@@ -308,42 +322,172 @@
 
                     <div class="segundalinha">
 
-                <div class="enroladinho">
+                <div>
 
                     <button id="botaoenroladinho" class="botao botao-nome">
                             <p>Enroladinho</p><p class="toque">batata</p>
                         <img class="botao-fotos" src="imagens/enroladinho.jpeg" alt="Foto de um Enroladinho">
-                         <form id="quantidadeenroladinho">
-                            <label for="quantidade-enroladinho">Quantidade:</label>
-                            <input type="number" id="quantidade-enroladinho" name="quantidade-enroladinho" min="1" max="200">
-                        </form>
+                         
                    </button>
+
+                   <div class="enroladinho">
+                    <form id="quantidadeenroladinho">
+                        <div><label for="quantidade-enroladinho">Quantidade:</label></div>
+                        <div><input type="number" id="quantidade-enroladinho" name="quantidade-enroladinho" min="1" max="200" value=""></div>
+                    </form>
+                   </div>
                 
                     </div>
 
-                    <div class="bolinhadequeijo">
+                    <div>
 
                         <button id="botaobolinhadequeijo" class="botao botao-nome">
                                 <p>Bolinha de</p><p>Queijo</p>
                             <img class="botao-fotos" src="imagens/bolinhadequeijo.jpeg" alt="Foto de uma Bolinha de Queijo">
-                             <form id="quantidadebolinhadequeijo">
-                                <label for="quantidade-bolinhadequeijo">Quantidade:</label>
-                                <input type="number" id="quantidade-bolinhadequeijo" name="quantidade-bolinhadequeijo" min="1" max="200">
-                            </form>
+                             
                        </button>
+
+                       <div class="bolinhadequeijo">
+                        <form id="quantidadebolinhadequeijo">
+                            <div><label for="quantidade-bolinhadequeijo">Quantidade:</label></div>
+                            <div><input type="number" id="quantidade-bolinhadequeijo" name="quantidade-bolinhadequeijo" min="1" max="200" value=""></div>
+                        </form>
+                       </div>
                     
                         </div>
 
-                        <div class="kibe">
+                        <div>
 
                             <button id="botaokibe" class="botao botao-nome">
                                     <p>Kibe</p><p class="toque">batata</p>
                                 <img class="botao-fotos" src="imagens/kibe.jpeg" alt="Foto de uma Kibe">
-                                 <form id="quantidadekibe">
-                                    <label for="quantidade-kibe">Quantidade:</label>
-                                    <input type="number" id="quantidade-kibe" name="quantidade-kibe" min="1" max="200">
-                                </form>
+                                 
                            </button>
+
+                           <div class="kibe">
+                            <form id="quantidadekibe">
+                                <div><label for="quantidade-kibe">Quantidade:</label></div>
+                                <div><input type="number" id="quantidade-kibe" name="quantidade-kibe" min="1" max="200" value=""></div>
+                            </form>
+                           </div>
+                        
+                            </div>
+
+                        </div>
+
+        </section>
+
+
+
+
+
+        <section class="doces">
+
+            <div class="primeiralinha">
+
+            <div>
+
+                <button id="botaobrigadeiro" class="botao botao-nome">
+                        <p>Brigadeiro</p><p class="toque">batata</p>
+                    <img class="botao-fotos" src="imagens/brigadeiro.png" alt="Foto de um Brigadeiro">
+                    
+                </button>
+
+                <div class="brigadeiro">
+                <form id="quantidadebrigadeiro">
+                    <div><label for="quantidade-brigadeiro">Quantidade:</label></div>
+                    <div><input type="number" id="quantidade-brigadeiro" name="quantidade-brigadeiro" min="1" max="200" value=""></div>
+                </form>
+            </div>
+    
+                </div>
+
+                <div>
+
+                    <button id="botaobeijinho" class="botao botao-nome">
+                            <p>Beijinho</p><p class="toque">batata</p>
+                        <img class="botao-fotos" src="imagens/beijinho.png" alt="Foto de um Beijinho">
+                        
+                    </button>
+
+                    <div class="beijinho">
+                    <form id="quantidadebeijinho">
+                        <div><label for="quantidade-beijinho">Quantidade:</label></div>
+                        <div><input type="number" id="quantidade-beijinho" name="quantidade-beijinho" min="1" max="200" value=""></div>
+                    </form>
+        
+                    </div>
+
+                </div>
+
+                    <div>
+
+                        <button id="botaodoisamores" class="botao botao-nome">
+                                <p>Dois</p><p>Amores</p>
+                            <img class="botao-fotos" src="imagens/doisamores.png" alt="Foto de um Dois Amores">
+                        </button>
+
+                        <div class="doisamores">
+                            <form id="quantidadedoisamores">
+                                <div><label for="quantidade-doisamores">Quantidade:</label></div>
+                                <div><input type="number" id="quantidade-doisamores" name="quantidade-doisamores" min="1" max="200" value=""></div>
+                            </form>
+                        </div>
+            
+                        </div>
+
+                    </div>
+
+                    <div class="segundalinha">
+
+                        <div>
+
+                            <button id="botaobrigadeirodemorango" class="botao botao-nome">
+                                    <p>Brigadeiro</p><p>de Morango</p>
+                                <img class="botao-fotos" src="imagens/brigadeirodemorango.png" alt="Foto de um Brigadeiro de Morango">
+                                 
+                           </button>
+    
+                           <div class="brigadeirodemorango">
+                            <form id="quantidadebrigadeirodemorango">
+                                <div><label for="quantidade-brigadeirodemorango">Quantidade:</label></div>
+                                <div><input type="number" id="quantidade-brigadeirodemorango" name="quantidade-brigadeirodemorango" min="1" max="200" value=""></div>
+                            </form>
+                           </div>
+                        
+                            </div>
+
+                    <div>
+
+                        <button id="botaobrigadeirodeuva" class="botao botao-nome">
+                                <p>Brigadeiro</p><p>de Uva</p>
+                            <img class="botao-fotos" src="imagens/brigadeirodeuva.png" alt="Foto de um Brigadeiro de Uva">
+                             
+                       </button>
+
+                       <div class="brigadeirodeuva">
+                        <form id="quantidadebrigadeirodeuva">
+                            <div><label for="quantidade-brigadeirodeuva">Quantidade:</label></div>
+                            <div><input type="number" id="quantidade-brigadeirodeuva" name="quantidade-brigadeirodeuva" min="1" max="200" value=""></div>
+                        </form>
+                       </div>
+                    
+                        </div>
+
+                        <div>
+
+                            <button id="botaobombom" class="botao botao-nome">
+                                    <p>Bombom</p><p class="toque">batata</p>
+                                <img class="botao-fotos" src="imagens/bombom.png" alt="Foto de um Bombom">
+                                 
+                           </button>
+
+                           <div class="bombom">
+                            <form id="quantidadebombom">
+                                <div><label for="quantidade-bombom">Quantidade:</label></div>
+                                <div><input type="number" id="quantidade-bombom" name="quantidade-bombom" min="1" max="200" value =""></div>
+                            </form>
+                           </div>
                         
                             </div>
 

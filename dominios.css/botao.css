@@ -52,7 +52,7 @@
     width: 30vw;
 }
 
-.salgados{
+.salgados, .doces{
     display: none;
 }
 
@@ -60,6 +60,16 @@
     display: flex;
 }
 
-#quantidadecoxinhas, #quantidademinihamburguer, #quantidademinipastel, #quantidadeenroladinho, #quantidadebolinhadequeijo, #quantidadekibe{
+#quantidadecoxinhas, #quantidademinihamburguer, #quantidademinipastel, #quantidadeenroladinho, #quantidadebolinhadequeijo, #quantidadekibe, #quantidadebrigadeiro, #quantidadebeijinho, #quantidadedoisamores, #quantidadebrigadeirodemorango, #quantidadebrigadeirodeuva, #quantidadebombom{
     display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.coxinhas, .minihamburguer, .minipastel, .enroladinho, .bolinhadequeijo, .kibe, .brigadeiro, .beijinho, .doisamores, .brigadeirodemorango, .brigadeirodeuva, .bombom{
+    display: none;
+    border: 1px solid var(--joao);
+    border-radius: 10px;
+    padding: 2vw 0;
 }
