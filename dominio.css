@@ -1,7 +1,7 @@
-@import url("estilos.css/header.css");
-@import url("estilos.css/produtos.css");
-@import url("estilos.css/botao.css");
-@import url("estilos.css/pedidos.css");
+@import url("dominios.css/header.css");
+@import url("dominios.css/produtos.css");
+@import url("dominios.css/botao.css");
+@import url("dominios.css/pedidos.css");
 
 :root{
     --fonte-principal: "Roboto Mono";

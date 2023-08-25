@@ -1,0 +1,45 @@
+.titulo-produtos{
+    font-weight: 700;
+    padding: 1em;
+    background-color: var(--marrom);
+    color: var(--laranja);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.produtos-fotos{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.produtos-nome{
+    text-align: center;
+    font-weight: 500;
+}
+
+.produtos-borda{
+    border: 2px solid var(--joao);
+    border-radius: 20px;
+    display: inline-block;
+    width: 26vw;
+    padding: 0.4em;
+    margin: 4vw .8vw;
+    transition: 1s ease-in-out;
+}
+
+.produtos-borda:hover{
+    border-color: var(--palmeiras);
+    transform: translateY(-10px);
+}
+
+.produtos-borda:active{
+    border-color: var(--palmeiras);
+}
+
+.produtos-texto{
+    color: var(--marrom);
+    font-weight: 700;
+    padding: 1em;
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+.toque{
+    visibility: hidden;
+}
+
+.botao{
+    background-color: var(--laranja);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 4vw .8vw;
+    display: inline-block;
+    text-align: center;
+}
+
+.botaodasopcoes{
+    width: 30vw;
+}
+
+.botao-geral{
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid var(--joao);
+}
+
+.botao-nome{
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.botao-fotos{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.botao-titulo{
+    font-weight: 700;
+    padding: 1em;
+    background-color: var(--marrom);
+    color: var(--laranja);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.texto-botao{
+    text-align: center;
+    color: var(--marrom);
+    padding: 1em;
+    font-weight: 700;
+}
+
+
+
+.botaodobolopadrao, .botaodobolocomcobertura, .botaodoboloconfeitado, .botaomassachocolate, .botaomassacenoura, .botaomassabaunilha, .botaocoberturachocolate, .botaocoberturachantily, .botaocoberturachocolatebranco, .botaorecheiochocolate, .botaorecheiochocolatebranco, .botaorecheioprestigio{
+    width: 30vw;
+}
+
+.salgados{
+    display: none;
+}
+
+.primeiralinha, .segundalinha{
+    display: flex;
+}
+
+#quantidadecoxinhas, #quantidademinihamburguer, #quantidademinipastel, #quantidadeenroladinho, #quantidadebolinhadequeijo, #quantidadekibe{
+    display: none;
+}
