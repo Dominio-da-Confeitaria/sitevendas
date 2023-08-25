@@ -50,6 +50,8 @@
             Aperte para ver as opções de nossos produtos
         </h1>
 
+        <div class="produtosarruma">
+
         <div class="produtos-borda">
             <h2 class="produtos-nome">
                 Bolo
@@ -70,6 +72,7 @@
             </h2>
             <img class="produtos-fotos" src="imagens/doces.png" alt="Foto de um Brigadeiro">
         </div>
+        </div>
     </section>
 
 
@@ -79,20 +82,24 @@
         <h1 class="botao-titulo">Faça seu Pedido</h1>
         <h1 class="texto-botao">Escolha os tópicos que deseja</h1>
 
-        <button id="botao-bolo" class="botao botao-nome botaodasopcoes">
+        <div class="primeiraetapa">
+
+        <button id="botao-bolo" class="botao botao-nome botaobolo">
             Bolo
         <img class="botao-fotos" src="imagens/bolo-chocolate.png" alt="Foto do Bolo">
     </button>
 
-            <button id="botao-salgados" class="botao botao-nome botaodasopcoes">
+            <button id="botao-salgados" class="botao botao-nome botaosalgados">
                     Salgados
                 <img class="botao-fotos" src="imagens/salgados.jpeg" alt="Foto de um Pastel">
     </button>
 
-            <button id="botao-doce" class="botao botao-nome botaodasopcoes">
+            <button id="botao-doce" class="botao botao-nome botaodoces">
                     Doces
                 <img class="botao-fotos" src="imagens/doces.png" alt="Foto de um Brigadeiro">
             </button>
+
+        </div>
         
         </section>
 
@@ -106,7 +113,7 @@
 
             <div class="bolo-padrao">
 
-            <button id="bolopadrao" class="botao botao-nome botao-tipo botaobolopadrao">
+            <button id="bolopadrao" class="botao botao-nome botaobolopadrao">
                     <p>Bolo Padrão</p>
                 <img class="botao-fotos" src="imagens/bolopadrao.png" alt="Foto do Bolo Padrão">
             </button>
@@ -115,7 +122,7 @@
 
             <div class="bolo-cobertura">
 
-            <button id="bolocomcobertura" class="botao botao-nome botao-tipo botaobolocomcobertura">
+            <button id="bolocomcobertura" class="botao botao-nome botaobolocomcobertura">
                     <p>Bolo com Cobertura</p>
                 <img class="botao-fotos" src="imagens/bolocomcobertura.png" alt="Foto do Bolo com Cobertura">
             </button>
@@ -124,7 +131,7 @@
 
             <div class="bolo-confeitado">
 
-            <button id="boloconfeitado" class="botao botao-nome botao-tipo botaoboloconfeitado">
+            <button id="boloconfeitado" class="botao botao-nome botaoboloconfeitado">
                     <p>Bolo Confeitado</p>
                 <img class="botao-fotos" src="imagens/boloconfeitado.png" alt="Foto do Bolo Confeitado">
             </button>
@@ -145,7 +152,7 @@
 
         <div class="massadechocolate">
 
-            <button id="botaodamassadechocolate" class="botao-nome botao  botao-tipo botaomassachocolate">
+            <button id="botaodamassadechocolate" class="botao-nome botao botaomassachocolate">
                     <p>Chocolate</p>
                 <img class="botao-fotos" src="imagens/massachocolate.png" alt="Foto do Bolo Padrão de Chocolate">
             </button>
@@ -154,7 +161,7 @@
 
         <div class="massadecenoura">
 
-            <button id="botaodamassadecenoura" class="botao-nome botao botaomassacenoura botao-tipo">
+            <button id="botaodamassadecenoura" class="botao-nome botao botaomassacenoura">
                     <p>Cenoura</p>
                 <img class="botao-fotos" src="imagens/massacenoura.png" alt="Foto do Bolo Padrão de Cenoura">
             </button>
@@ -163,7 +170,7 @@
 
         <div class="massadebaunilha">
 
-            <button id="botaodamassadebaunilha" class="botao-nome botao botaomassabaunilha botao-tipo">
+            <button id="botaodamassadebaunilha" class="botao-nome botao botaomassabaunilha">
                     <p>Baunilha</p>
                 <img class="botao-fotos" src="imagens/massabaunilha.png" alt="Foto do Bolo Padrão de Baunilha">
             </button>
@@ -183,7 +190,7 @@
 
         <div class="coberturadechocolate">
 
-            <button id="botaodacoberturadechocolate" class="botao botaocoberturachocolate botao-nome botao-tipo">
+            <button id="botaodacoberturadechocolate" class="botao botaocoberturachocolate botao-nome">
                     <p>Chocolate</p><p class="toque">batata</p>
                 <img class="botao-fotos" src="imagens/coberturachocolate.png" alt="Foto do Bolo com Cobertura de Chocolate">
             </button>
@@ -192,7 +199,7 @@
 
         <div class="coberturadechantily">
 
-            <button id="botaodacoberturadechantily" class="botao botaocoberturachantily botao-nome botao-tipo">
+            <button id="botaodacoberturadechantily" class="botao botaocoberturachantily botao-nome">
                     <p>Chantily</p><p class="toque">batata</p>
                 <img class="botao-fotos" src="imagens/coberturachantily.png" alt="Foto do Bolo com Cobertura de Chantily">
             </button>
@@ -201,7 +208,7 @@
 
         <div class="coberturadechocolatebranco">
 
-            <button id="botaodacoberturadechocolatebranco" class="botao botaocoberturachocolatebranco botao-nome botao-tipo">
+            <button id="botaodacoberturadechocolatebranco" class="botao botaocoberturachocolatebranco botao-nome">
                     <p>Chocolate</p><p>Branco</p>
                 <img class="botao-fotos" src="imagens/coberturachocolatebranco.png" alt="Foto do Bolo com Cobertura de Chocolate Branco">
             </button>
@@ -221,7 +228,7 @@
 
             <div class="recheiodechocolate">
 
-            <button id="botaodorecheiodechocolate" class="botao botaorecheiochocolate botao-nome botao-tipo">
+            <button id="botaodorecheiodechocolate" class="botao botaorecheiochocolate botao-nome">
                     <p>Chocolate</p><p class="toque">batata</p>
                 <img class="botao-fotos" src="imagens/completochocolate.png" alt="Foto do Bolo Confeitado de Chocolate">
             </button>
@@ -230,7 +237,7 @@
 
             <div class="recheiodechocolatebranco">
 
-            <button id="botaodorecheiodechocolatebranco" class="botao botaorecheiochocolatebranco botao-nome botao-tipo">
+            <button id="botaodorecheiodechocolatebranco" class="botao botaorecheiochocolatebranco botao-nome">
                     <p>Chocolate</p><p>Branco</p>
                 <img class="botao-fotos" src="imagens/completochocolatebranco.png" alt="Foto do Bolo Confeitado de Chocolate Branco">
             </button>
@@ -239,7 +246,7 @@
 
             <div class="recheiodeprestigio">
 
-            <button id="botaodorecheiodeprestigio" class="botao botaorecheioprestigio botao-nome botao-tipo">
+            <button id="botaodorecheiodeprestigio" class="botao botaorecheioprestigio botao-nome">
                     <p>Prestígio</p><p class="toque">batata</p>
                 <img class="botao-fotos" src="imagens/completoprestigio.png" alt="Foto do Bolo Confeitado de Prestígio">
             </button>
@@ -261,7 +268,7 @@
             <div class="coxinhas">
 
                 <button id="botaocoxinhas" class="botao botao-nome">
-                        <p>Coxinhas</p>
+                        <p>Coxinhas</p><p class="toque">batata</p>
                     <img class="botao-fotos" src="imagens/coxinha.jpeg" alt="Foto de uma Coxinha">
                     <form id="quantidadecoxinhas">
                         <label for="quantidade-coxinhas">Quantidade:</label>
@@ -274,7 +281,7 @@
                 <div class="minihamburguer">
 
                     <button id="botaominihamburguer" class="botao botao-nome">
-                            <p>Mini-Hamburguer</p>
+                            <p>Mini</p><p>Hamburguer</p>
                         <img class="botao-fotos" src="imagens/minihamburguer.jpeg" alt="Foto de um Mini-Hamburguer">
                         <form id="quantidademinihamburguer">
                             <label for="quantidade-minihamburguer">Quantidade:</label>
@@ -287,7 +294,7 @@
                     <div class="minipastel">
 
                         <button id="botaominipastel" class="botao botao-nome">
-                                <p>Mini-Pastel</p>
+                                <p>Mini-Pastel</p><p class="toque">batata</p>
                             <img class="botao-fotos" src="imagens/pastel.jpeg" alt="Foto de um Mini-Pastel">
                             <form id="quantidademinipastel">
                                 <label for="quantidade-minipastel">Quantidade:</label>
@@ -304,7 +311,7 @@
                 <div class="enroladinho">
 
                     <button id="botaoenroladinho" class="botao botao-nome">
-                            <p>Enroladinho</p>
+                            <p>Enroladinho</p><p class="toque">batata</p>
                         <img class="botao-fotos" src="imagens/enroladinho.jpeg" alt="Foto de um Enroladinho">
                          <form id="quantidadeenroladinho">
                             <label for="quantidade-enroladinho">Quantidade:</label>
@@ -317,7 +324,7 @@
                     <div class="bolinhadequeijo">
 
                         <button id="botaobolinhadequeijo" class="botao botao-nome">
-                                <p>Bolinha de Queijo</p>
+                                <p>Bolinha de</p><p>Queijo</p>
                             <img class="botao-fotos" src="imagens/bolinhadequeijo.jpeg" alt="Foto de uma Bolinha de Queijo">
                              <form id="quantidadebolinhadequeijo">
                                 <label for="quantidade-bolinhadequeijo">Quantidade:</label>
@@ -330,7 +337,7 @@
                         <div class="kibe">
 
                             <button id="botaokibe" class="botao botao-nome">
-                                    <p>Kibe</p>
+                                    <p>Kibe</p><p class="toque">batata</p>
                                 <img class="botao-fotos" src="imagens/kibe.jpeg" alt="Foto de uma Kibe">
                                  <form id="quantidadekibe">
                                     <label for="quantidade-kibe">Quantidade:</label>
