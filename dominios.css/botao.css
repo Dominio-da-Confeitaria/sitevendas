@@ -48,7 +48,15 @@
     font-weight: 700;
 }
 
-.botaobolo, .botaosalgados, .botaodoces, .botaobolopadrao, .botaobolocomcobertura, .botaoboloconfeitado, .botaomassachocolate, .botaomassacenoura, .botaomassabaunilha, .botaocoberturachocolate, .botaocoberturachantily, .botaocoberturachocolatebranco, .botaorecheiochocolate, .botaorecheiochocolatebranco, .botaorecheioprestigio{
+.botaobolo, .botaosalgados, .botaodoces, 
+.botaobolopadrao,.botaobolocomcobertura, .botaoboloconfeitado, 
+.botaomassachocolate, .botaomassacenoura, .botaomassabaunilha, 
+.botaocoberturachocolate, .botaocoberturachantily, .botaocoberturachocolatebranco, 
+.botaorecheiochocolate, .botaorecheiochocolatebranco, .botaorecheioprestigio, 
+.botaodascoxinhas, .botaodosminihamburguers, .botaodosminipasteis, 
+.botaodosenroladinhos, .botaodasbolinhasdequeijo, .botaodoskibes, 
+.botaodosbrigadeiros, .botaodosbeijinhos, .botaodosdoisamores,
+.botaodosbrigadeirosdemorango, .botaodosbrigadeirosdeuva, .botaodosbombons{
     width: 30vw;
 }
 
@@ -60,14 +68,20 @@
     display: flex;
 }
 
-#quantidadecoxinhas, #quantidademinihamburguer, #quantidademinipastel, #quantidadeenroladinho, #quantidadebolinhadequeijo, #quantidadekibe, #quantidadebrigadeiro, #quantidadebeijinho, #quantidadedoisamores, #quantidadebrigadeirodemorango, #quantidadebrigadeirodeuva, #quantidadebombom{
+#quantidadecoxinhas, #quantidademinihamburguer, #quantidademinipastel, 
+#quantidadeenroladinho, #quantidadebolinhadequeijo, #quantidadekibe, 
+#quantidadebrigadeiro, #quantidadebeijinho, #quantidadedoisamores, 
+#quantidadebrigadeirodemorango, #quantidadebrigadeirodeuva, #quantidadebombom{
     display: none;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.coxinhas, .minihamburguer, .minipastel, .enroladinho, .bolinhadequeijo, .kibe, .brigadeiro, .beijinho, .doisamores, .brigadeirodemorango, .brigadeirodeuva, .bombom{
+.coxinhas, .minihamburguer, .minipastel, 
+.enroladinho, .bolinhadequeijo, .kibe, 
+.brigadeiro, .beijinho, .doisamores, 
+.brigadeirodemorango, .brigadeirodeuva, .bombom{
     display: none;
     border: 1px solid var(--joao);
     border-radius: 10px;
