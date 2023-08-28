@@ -5,14 +5,14 @@ botaobrigadeiro.addEventListener('click',function(){
         brigadeiro.style.display = 'none';
         brigadeiro.style.backgroundColor = '#ffa500';
         botaobrigadeiro.style.backgroundColor = '#ffa500';
-        botaobrigadeiro.style.width = '30vw';
+        botaobrigadeiro.style.width = '31vw';
         quantidadebrigadeiro.reset();
     } else {
         quantidadebrigadeiro.style.display = 'block';
         brigadeiro.style.display = 'block';
         brigadeiro.style.backgroundColor = '#088c19';
         botaobrigadeiro.style.backgroundColor = '#088c19';
-        botaobrigadeiro.style.width = '30vw';
+        botaobrigadeiro.style.width = '31vw';
     }
 })
 
@@ -23,14 +23,14 @@ botaobeijinho.addEventListener('click',function(){
         beijinho.style.display = 'none';
         beijinho.style.backgroundColor = '#ffa500';
         botaobeijinho.style.backgroundColor = '#ffa500';
-        botaobeijinho.style.width = '30vw';
+        botaobeijinho.style.width = '31vw';
         quantidadebeijinho.reset();
     } else {
         quantidadebeijinho.style.display = 'block';
         beijinho.style.display = 'block';
         beijinho.style.backgroundColor = '#088c19';
         botaobeijinho.style.backgroundColor = '#088c19';
-        botaobeijinho.style.width = '30vw';
+        botaobeijinho.style.width = '31vw';
     }
 })
 
@@ -41,14 +41,14 @@ botaodoisamores.addEventListener('click',function(){
         doisamores.style.display = 'none';
         doisamores.style.backgroundColor = '#ffa500';
         botaodoisamores.style.backgroundColor = '#ffa500';
-        botaodoisamores.style.width = '30vw';
+        botaodoisamores.style.width = '31vw';
         quantidadedoisamores.reset();
     } else {
         quantidadedoisamores.style.display = 'block';
         doisamores.style.display = 'block';
         doisamores.style.backgroundColor = '#088c19';
         botaodoisamores.style.backgroundColor = '#088c19';
-        botaodoisamores.style.width = '30vw';
+        botaodoisamores.style.width = '31vw';
     }
 })
 
@@ -59,14 +59,14 @@ botaobrigadeirodemorango.addEventListener('click',function(){
         brigadeirodemorango.style.display = 'none';
         brigadeirodemorango.style.backgroundColor = '#ffa500';
         botaobrigadeirodemorango.style.backgroundColor = '#ffa500';
-        botaobrigadeirodemorango.style.width = '30vw';
+        botaobrigadeirodemorango.style.width = '31vw';
         quantidadebrigadeirodemorango.reset();
     } else {
         quantidadebrigadeirodemorango.style.display = 'block';
         brigadeirodemorango.style.display = 'block';
         brigadeirodemorango.style.backgroundColor = '#088c19';
         botaobrigadeirodemorango.style.backgroundColor = '#088c19';
-        botaobrigadeirodemorango.style.width = '30vw';
+        botaobrigadeirodemorango.style.width = '31vw';
     }
 })
 
@@ -77,14 +77,14 @@ botaobrigadeirodeuva.addEventListener('click',function(){
         brigadeirodeuva.style.display = 'none';
         brigadeirodeuva.style.backgroundColor = '#ffa500';
         botaobrigadeirodeuva.style.backgroundColor = '#ffa500';
-        botaobrigadeirodeuva.style.width = '30vw';
+        botaobrigadeirodeuva.style.width = '31vw';
         quantidadebrigadeirodeuva.reset();
     } else {
         quantidadebrigadeirodeuva.style.display = 'block';
         brigadeirodeuva.style.display = 'block';
         brigadeirodeuva.style.backgroundColor = '#088c19';
         botaobrigadeirodeuva.style.backgroundColor = '#088c19';
-        botaobrigadeirodeuva.style.width = '30vw';
+        botaobrigadeirodeuva.style.width = '31vw';
     }
 })
 
@@ -95,13 +95,13 @@ botaobombom.addEventListener('click',function(){
         bombom.style.display = 'none';
         bombom.style.backgroundColor = '#ffa500';
         botaobombom.style.backgroundColor = '#ffa500';
-        botaobombom.style.width = '30vw';
+        botaobombom.style.width = '31vw';
         quantidadebombom.reset();
     } else {
         quantidadebombom.style.display = 'block';
         bombom.style.display = 'block';
         bombom.style.backgroundColor = '#088c19';
         botaobombom.style.backgroundColor = '#088c19';
-        botaobombom.style.width = '30vw';
+        botaobombom.style.width = '31vw';
     }
 })

@@ -16,16 +16,20 @@
 .produtos-nome{
     text-align: center;
     font-weight: 500;
+    text-decoration: none;
+    color: var(--marrom);
 }
 
 .produtos-borda{
     border: 2px solid var(--joao);
     border-radius: 20px;
-    display: inline-block;
-    width: 27vw;
+    width: 30vw;
     padding: 0.4em;
     margin: 4vw .8vw;
     transition: 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .produtos-borda:hover{

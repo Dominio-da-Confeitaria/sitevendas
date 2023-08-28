@@ -4,13 +4,13 @@ botaodobolopadrao.addEventListener('click',function(){
         massasdebolo.style.display = 'none';
         bolocomcobertura.style.display = 'block';
         boloconfeitado.style.display = 'block';
-        botaodobolopadrao.style.width = '30vw';
+        botaodobolopadrao.style.width = '31vw';
 
-        botaomassachocolate.style.width = '30vw';
+        botaomassachocolate.style.width = '31vw';
         botaodamassadechocolate.style.backgroundColor = '#ffa500';
-        botaomassacenoura.style.width = '30vw';
+        botaomassacenoura.style.width = '31vw';
         botaodamassadecenoura.style.backgroundColor = '#ffa500';
-        botaomassabaunilha.style.width = '30vw';
+        botaomassabaunilha.style.width = '31vw';
         botaodamassadebaunilha.style.backgroundColor = '#ffa500';
 
         botaodobolopadrao.style.backgroundColor = '#ffa500';
@@ -36,20 +36,20 @@ botaodobolocomcobertura.addEventListener('click',function(){
         coberturasdebolo.style.display = 'none';
         bolopadrao.style.display = 'block';
         boloconfeitado.style.display = 'block';
-        botaodobolocomcobertura.style.width = '30vw';
+        botaodobolocomcobertura.style.width = '31vw';
 
-        botaomassachocolate.style.width = '30vw';
+        botaomassachocolate.style.width = '31vw';
         botaodamassadechocolate.style.backgroundColor = '#ffa500';
-        botaomassacenoura.style.width = '30vw';
+        botaomassacenoura.style.width = '31vw';
         botaodamassadecenoura.style.backgroundColor = '#ffa500';
-        botaomassabaunilha.style.width = '30vw';
+        botaomassabaunilha.style.width = '31vw';
         botaodamassadebaunilha.style.backgroundColor = '#ffa500';
 
-        botaocoberturachocolate.style.width = '30vw';
+        botaocoberturachocolate.style.width = '31vw';
         botaodacoberturadechocolate.style.backgroundColor = '#ffa500';
-        botaocoberturachantily.style.width = '30vw';
+        botaocoberturachantily.style.width = '31vw';
         botaodacoberturadechantily.style.backgroundColor = '#ffa500';
-        botaocoberturachocolatebranco.style.width = '30vw';
+        botaocoberturachocolatebranco.style.width = '31vw';
         botaodacoberturadechocolatebranco.style.backgroundColor = '#ffa500';
 
         botaodobolocomcobertura.style.backgroundColor = '#ffa500';
@@ -81,27 +81,27 @@ botaodoboloconfeitado.addEventListener('click',function(){
         recheiosdobolo.style.display = 'none';
         bolopadrao.style.display = 'block';
         bolocomcobertura.style.display = 'block';
-        botaodoboloconfeitado.style.width = '30vw';
+        botaodoboloconfeitado.style.width = '31vw';
 
-        botaomassachocolate.style.width = '30vw';
+        botaomassachocolate.style.width = '31vw';
         botaodamassadechocolate.style.backgroundColor = '#ffa500';
-        botaomassacenoura.style.width = '30vw';
+        botaomassacenoura.style.width = '31vw';
         botaodamassadecenoura.style.backgroundColor = '#ffa500';
-        botaomassabaunilha.style.width = '30vw';
+        botaomassabaunilha.style.width = '31vw';
         botaodamassadebaunilha.style.backgroundColor = '#ffa500';
 
-        botaocoberturachocolate.style.width = '30vw';
+        botaocoberturachocolate.style.width = '31vw';
         botaodacoberturadechocolate.style.backgroundColor = '#ffa500';
-        botaocoberturachantily.style.width = '30vw';
+        botaocoberturachantily.style.width = '31vw';
         botaodacoberturadechantily.style.backgroundColor = '#ffa500';
-        botaocoberturachocolatebranco.style.width = '30vw';
+        botaocoberturachocolatebranco.style.width = '31vw';
         botaodacoberturadechocolatebranco.style.backgroundColor = '#ffa500';
 
-        botaorecheiochocolate.style.width = '30vw';
+        botaorecheiochocolate.style.width = '31vw';
         botaodorecheiodechocolate.style.backgroundColor = '#ffa500';
-        botaorecheiochocolatebranco.style.width = '30vw';
+        botaorecheiochocolatebranco.style.width = '31vw';
         botaodorecheiodechocolatebranco.style.backgroundColor = '#ffa500';
-        botaorecheioprestigio.style.width = '30vw';
+        botaorecheioprestigio.style.width = '31vw';
         botaodorecheiodeprestigio.style.backgroundColor = '#ffa500';
 
         botaodoboloconfeitado.style.backgroundColor = '#ffa500';

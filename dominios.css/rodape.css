@@ -1,0 +1,10 @@
+.rodape{
+    background: url("../imagens/bg.jpg");
+    color: var(--laranja);
+    text-align: center;
+    padding: 5vw;
+}
+
+.nome-rodape{
+    color: var(--laranja);
+}

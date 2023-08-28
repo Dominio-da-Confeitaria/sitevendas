@@ -6,34 +6,38 @@ botaodobolo.addEventListener('click',function(){
         coberturasdebolo.style.display = 'none';
         recheiosdobolo.style.display = 'none';
 
-        botaobolopadrao.style.width = '30vw';
+        botaobolopadrao.style.width = '31vw';
         botaodobolopadrao.style.backgroundColor = '#ffa500';
-        botaobolocomcobertura.style.width = '30vw';
+        botaobolocomcobertura.style.width = '31vw';
         botaodobolocomcobertura.style.backgroundColor = '#ffa500';
-        botaoboloconfeitado.style.width = '30vw';
+        botaoboloconfeitado.style.width = '31vw';
         botaodoboloconfeitado.style.backgroundColor = '#ffa500';
 
-        botaomassachocolate.style.width = '30vw';
+        botaomassachocolate.style.width = '31vw';
         botaodamassadechocolate.style.backgroundColor = '#ffa500';
-        botaomassacenoura.style.width = '30vw';
+        botaomassacenoura.style.width = '31vw';
         botaodamassadecenoura.style.backgroundColor = '#ffa500';
-        botaomassabaunilha.style.width = '30vw';
+        botaomassabaunilha.style.width = '31vw';
         botaodamassadebaunilha.style.backgroundColor = '#ffa500';
 
-        botaocoberturachocolate.style.width = '30vw';
+        botaocoberturachocolate.style.width = '31vw';
         botaodacoberturadechocolate.style.backgroundColor = '#ffa500';
-        botaocoberturachantily.style.width = '30vw';
+        botaocoberturachantily.style.width = '31vw';
         botaodacoberturadechantily.style.backgroundColor = '#ffa500';
-        botaocoberturachocolatebranco.style.width = '30vw';
+        botaocoberturachocolatebranco.style.width = '31vw';
         botaodacoberturadechocolatebranco.style.backgroundColor = '#ffa500';
 
-        botaorecheiochocolate.style.width = '30vw';
+        botaorecheiochocolate.style.width = '31vw';
         botaodorecheiodechocolate.style.backgroundColor = '#ffa500';
-        botaorecheiochocolatebranco.style.width = '30vw';
+        botaorecheiochocolatebranco.style.width = '31vw';
         botaodorecheiodechocolatebranco.style.backgroundColor = '#ffa500';
-        botaorecheioprestigio.style.width = '30vw';
+        botaorecheioprestigio.style.width = '31vw';
         botaodorecheiodeprestigio.style.backgroundColor = '#ffa500';
         
+        kilosdebolo.style.display = 'none';
+        bolotipo.style.display = 'none';
+        bolotipo.style.backgroundColor = '#ffa500';
+        kilosdebolo.reset();
 
         botaodobolo.style.backgroundColor = '#ffa500';
     } else {
@@ -55,6 +59,10 @@ botaodobolo.addEventListener('click',function(){
         recheiodechocolatebranco.style.display = 'block';
         recheiodeprestigio.style.display = 'block';
 
+        kilosdebolo.style.display = 'block';
+        bolotipo.style.display = 'block';
+        bolotipo.style.backgroundColor = '#088c19';
+
         botaodobolo.style.backgroundColor = '#088c19';
     }
 })
@@ -69,32 +77,32 @@ botaosalgados.addEventListener('click',function(){
         coxinhas.style.display = 'none';
         coxinhas.style.backgroundColor = '#ffa500';
         botaocoxinhas.style.backgroundColor = '#ffa500';
-        botaocoxinhas.style.width = '30vw';
+        botaocoxinhas.style.width = '31vw';
         quantidademinihamburguer.style.display = 'none';
         minihamburguer.style.display = 'none';
         minihamburguer.style.backgroundColor = '#ffa500';
         botaominihamburguer.style.backgroundColor = '#ffa500';
-        botaominihamburguer.style.width = '30vw';
+        botaominihamburguer.style.width = '31vw';
         quantidademinipastel.style.display = 'none';
         minipastel.style.display = 'none';
         minipastel.style.backgroundColor = '#ffa500';
         botaominipastel.style.backgroundColor = '#ffa500';
-        botaominipastel.style.width = '30vw';
+        botaominipastel.style.width = '31vw';
         quantidadeenroladinho.style.display = 'none';
         enroladinho.style.display = 'none';
         enroladinho.style.backgroundColor = '#ffa500';
         botaoenroladinho.style.backgroundColor = '#ffa500';
-        botaoenroladinho.style.width = '30vw';
+        botaoenroladinho.style.width = '31vw';
         quantidadebolinhadequeijo.style.display = 'none';
         bolinhadequeijo.style.display = 'none';
         bolinhadequeijo.style.backgroundColor = '#ffa500';
         botaobolinhadequeijo.style.backgroundColor = '#ffa500';
-        botaobolinhadequeijo.style.width = '30vw';
+        botaobolinhadequeijo.style.width = '31vw';
         quantidadekibe.style.display = 'none';
         kibe.style.display = 'none';
         kibe.style.backgroundColor = '#ffa500';
         botaokibe.style.backgroundColor = '#ffa500';
-        botaokibe.style.width = '30vw';
+        botaokibe.style.width = '31vw';
 
         quantidadecoxinhas.reset();
         quantidademinihamburguer.reset();
@@ -118,32 +126,32 @@ botaodoce.addEventListener('click',function(){
         brigadeiro.style.display = 'none';
         brigadeiro.style.backgroundColor = '#ffa500';
         botaobrigadeiro.style.backgroundColor = '#ffa500';
-        botaobrigadeiro.style.width = '30vw';
+        botaobrigadeiro.style.width = '31vw';
         quantidadebeijinho.style.display = 'none';
         beijinho.style.display = 'none';
         beijinho.style.backgroundColor = '#ffa500';
         botaobeijinho.style.backgroundColor = '#ffa500';
-        botaobeijinho.style.width = '30vw';
+        botaobeijinho.style.width = '31vw';
         quantidadedoisamores.style.display = 'none';
         doisamores.style.display = 'none';
         doisamores.style.backgroundColor = '#ffa500';
         botaodoisamores.style.backgroundColor = '#ffa500';
-        botaodoisamores.style.width = '30vw';
+        botaodoisamores.style.width = '31vw';
         quantidadebrigadeirodemorango.style.display = 'none';
         brigadeirodemorango.style.display = 'none';
         brigadeirodemorango.style.backgroundColor = '#ffa500';
         botaobrigadeirodemorango.style.backgroundColor = '#ffa500';
-        botaobrigadeirodemorango.style.width = '30vw';
+        botaobrigadeirodemorango.style.width = '31vw';
         quantidadebrigadeirodeuva.style.display = 'none';
         brigadeirodeuva.style.display = 'none';
         brigadeirodeuva.style.backgroundColor = '#ffa500';
         botaobrigadeirodeuva.style.backgroundColor = '#ffa500';
-        botaobrigadeirodeuva.style.width = '30vw';
+        botaobrigadeirodeuva.style.width = '31vw';
         quantidadebombom.style.display = 'none';
         bombom.style.display = 'none';
         bombom.style.backgroundColor = '#ffa500';
         botaobombom.style.backgroundColor = '#ffa500';
-        botaobombom.style.width = '30vw';
+        botaobombom.style.width = '31vw';
 
         quantidadebrigadeiro.reset();
         quantidadebeijinho.reset();

@@ -3,7 +3,7 @@ botaodamassadechocolate.addEventListener('click',function(){
     if (massadecenoura.style.display === 'none') {
         massadecenoura.style.display = 'block';
         massadebaunilha.style.display = 'block';
-        botaomassachocolate.style.width = '30vw';
+        botaomassachocolate.style.width = '31vw';
         botaodamassadechocolate.style.backgroundColor = '#ffa500';
     } else {
         massadecenoura.style.display = 'none';
@@ -19,7 +19,7 @@ botaodamassadecenoura.addEventListener('click',function(){
     if (massadebaunilha.style.display === 'none') {
         massadebaunilha.style.display = 'block';
         massadechocolate.style.display = 'block';
-        botaomassacenoura.style.width = '30vw';
+        botaomassacenoura.style.width = '31vw';
         botaodamassadecenoura.style.backgroundColor = '#ffa500';
     } else {
         massadebaunilha.style.display = 'none';
@@ -35,7 +35,7 @@ botaodamassadebaunilha.addEventListener('click',function(){
     if (massadechocolate.style.display === 'none') {
         massadechocolate.style.display = 'block';
         massadecenoura.style.display = 'block';
-        botaomassabaunilha.style.width = '30vw';
+        botaomassabaunilha.style.width = '31vw';
         botaodamassadebaunilha.style.backgroundColor = '#ffa500';
     } else {
         massadechocolate.style.display = 'none';

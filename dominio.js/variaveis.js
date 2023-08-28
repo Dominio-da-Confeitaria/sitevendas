@@ -92,6 +92,7 @@ var quantidadedoisamores = document.querySelector('#quantidadedoisamores');
 var quantidadebrigadeirodemorango = document.querySelector('#quantidadebrigadeirodemorango');
 var quantidadebrigadeirodeuva = document.querySelector('#quantidadebrigadeirodeuva');
 var quantidadebombom = document.querySelector('#quantidadebombom');
+var kilosdebolo = document.querySelector('#kilosdebolo');
 
 var brigadeiro = document.querySelector('.brigadeiro');
 var beijinho = document.querySelector('.beijinho');
@@ -99,4 +100,5 @@ var doisamores = document.querySelector('.doisamores');
 var brigadeirodemorango = document.querySelector('.brigadeirodemorango');
 var brigadeirodeuva = document.querySelector('.brigadeirodeuva');
 var bombom = document.querySelector('.bombom');
+var bolotipo = document.querySelector('.bolo-tipo');
 

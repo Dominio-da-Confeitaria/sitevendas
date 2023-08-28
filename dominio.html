@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domínio da Confeitaria</title>
+    <title>Pedido</title>
     <link rel="stylesheet" href="dominio.css">
     <link rel="stylesheet" href="reset.css">
     <script defer src="dominio.js/variaveis.js"></script>
@@ -31,7 +31,13 @@
                 </label>
                     <ul class="lista-menu">
                         <li class="lista-menu__titulo">Categorias</li>
-                          <li class="lista-menu__item"><a href="#" class="lista-menu__link">Sobre nós</a></li>
+                          <li class="lista-menu__item"><a href="dominios.html/sobrenos.html" class="lista-menu__link">Sobre nós</a></li>
+                          <li class="lista-menu__item"><a href="dominio.html" class="lista-menu__link">Pedido</a></li>
+                        <li class="lista-menu__titulo">Produtos</li>
+                        <li class="lista-menu__item"><a href="dominios.html/produtos.html" class="lista-menu__link">Produtos</a></li>
+                          <li class="lista-menu__item"><a href="dominios.html/bolo.html" class="lista-menu__link">Bolos</a></li>
+                          <li class="lista-menu__item"><a href="dominios.html/salgados.html" class="lista-menu__link">Salgados</a></li>
+                          <li class="lista-menu__item"><a href="dominios.html/doces.html" class="lista-menu__link">Doces</a></li>
                     </ul>
         <img class="container__imagem" src="imagens/logo.jpg" alt="Logo do Domínio da Confeitaria">
         <h1 class="container__titulo">
@@ -41,63 +47,37 @@
     </header>
 
 
-
-    <section class="produtos">
-        
-        <h1 class="titulo-produtos">
-            nossos produtos
-        </h1>
-
-        <h1 class="produtos-texto">
-            Aperte para ver as opções de nossos produtos
-        </h1>
-
-        <div class="produtosarruma">
-
-        <div class="produtos-borda">
-            <h2 class="produtos-nome">
-                Bolo
-            </h2>
-            <img class="produtos-fotos" src="imagens/bolo-chocolate.png" alt="Foto do Bolo">
-        </div>
-
-        <div class="produtos-borda">
-            <h2 class="produtos-nome">
-                Salgados
-            </h2>
-            <img class="produtos-fotos" src="imagens/salgados.jpeg" alt="Foto de um Pastel">
-        </div>
-
-        <div class="produtos-borda">
-            <h2 class="produtos-nome">
-                Doces
-            </h2>
-            <img class="produtos-fotos" src="imagens/doces.png" alt="Foto de um Brigadeiro">
-        </div>
-        </div>
-    </section>
-
+    
 
 
     <section class="botoes">
 
         <h1 class="botao-titulo">Faça seu Pedido</h1>
+
+        <div class="botao-espaco">
+            <button class="borda-botao"><a href="dominios.html/produtos.html" class="botao-link">
+                <p>Veja os Nossos Produtos!</p>
+            </a></button>
+            </div>
+
         <h1 class="texto-botao">Escolha os tópicos que deseja</h1>
+
+        
 
         <div class="primeiraetapa">
 
         <button id="botao-bolo" class="botao botao-nome botaobolo">
-            Bolo
+            <p>Bolo</p>
         <img class="botao-fotos" src="imagens/bolo-chocolate.png" alt="Foto do Bolo">
     </button>
 
             <button id="botao-salgados" class="botao botao-nome botaosalgados">
-                    Salgados
+                    <p>Salgados</p>
                 <img class="botao-fotos" src="imagens/salgados.jpeg" alt="Foto de um Pastel">
     </button>
 
             <button id="botao-doce" class="botao botao-nome botaodoces">
-                    Doces
+                    <p>Doces</p>
                 <img class="botao-fotos" src="imagens/doces.png" alt="Foto de um Brigadeiro">
             </button>
 
@@ -105,6 +85,13 @@
         
         </section>
 
+
+        <div class="bolo-tipo">
+            <form id="kilosdebolo">
+                <div><label for="kilos-bolo">Quantidade(Kg):</label></div>
+                <div><input type="number" id="kilos-bolo" name="kilos-bolo" min="1" max="5" value=""></div>
+            </form>
+        </div>
     
 
         <div class="tiposdebolo">
@@ -116,7 +103,6 @@
             <div class="bolo-padrao">
 
             <button id="bolopadrao" class="botao botao-nome botaobolopadrao">
-                    <p>Bolo Padrão</p>
                 <img class="botao-fotos" src="imagens/bolopadrao.png" alt="Foto do Bolo Padrão">
             </button>
         
@@ -125,7 +111,6 @@
             <div class="bolo-cobertura">
 
             <button id="bolocomcobertura" class="botao botao-nome botaobolocomcobertura">
-                    <p>Bolo com Cobertura</p>
                 <img class="botao-fotos" src="imagens/bolocomcobertura.png" alt="Foto do Bolo com Cobertura">
             </button>
 
@@ -134,13 +119,14 @@
             <div class="bolo-confeitado">
 
             <button id="boloconfeitado" class="botao botao-nome botaoboloconfeitado">
-                    <p>Bolo Confeitado</p>
                 <img class="botao-fotos" src="imagens/boloconfeitado.png" alt="Foto do Bolo Confeitado">
             </button>
 
             </div>
 
         </div>
+
+        
 
         </div>
 
@@ -325,7 +311,7 @@
                 <div>
 
                     <button id="botaoenroladinho" class="botao botao-nome botaodosenroladinhos">
-                            <p>Enroladinho</p><p class="toque">batata</p>
+                            <p>Enroladinho</p><p class="toque">batata</p><p class="toque">batata</p>
                         <img class="botao-fotos" src="imagens/enroladinho.jpeg" alt="Foto de um Enroladinho">
                          
                    </button>
@@ -342,7 +328,7 @@
                     <div>
 
                         <button id="botaobolinhadequeijo" class="botao botao-nome botaodasbolinhasdequeijo">
-                                <p>Bolinha de</p><p>Queijo</p>
+                                <p>Bolinha</p><p>de</p><p>Queijo</p>
                             <img class="botao-fotos" src="imagens/bolinhadequeijo.jpeg" alt="Foto de uma Bolinha de Queijo">
                              
                        </button>
@@ -359,7 +345,7 @@
                         <div>
 
                             <button id="botaokibe" class="botao botao-nome botaodoskibes">
-                                    <p>Kibe</p><p class="toque">batata</p>
+                                    <p>Kibe</p><p class="toque">batata</p><p class="toque">batata</p>
                                 <img class="botao-fotos" src="imagens/kibe.jpeg" alt="Foto de uma Kibe">
                                  
                            </button>
@@ -443,7 +429,7 @@
                         <div>
 
                             <button id="botaobrigadeirodemorango" class="botao botao-nome botaodosbrigadeirosdemorango">
-                                    <p>Brigadeiro</p><p>de Morango</p>
+                                    <p>Brigadeiro</p><p>de</p><p>Morango</p>
                                 <img class="botao-fotos" src="imagens/brigadeirodemorango.png" alt="Foto de um Brigadeiro de Morango">
                                  
                            </button>
@@ -460,7 +446,7 @@
                     <div>
 
                         <button id="botaobrigadeirodeuva" class="botao botao-nome botaodosbrigadeirosdeuva">
-                                <p>Brigadeiro</p><p>de Uva</p>
+                                <p>Brigadeiro</p><p>de</p><p>Uva</p>
                             <img class="botao-fotos" src="imagens/brigadeirodeuva.png" alt="Foto de um Brigadeiro de Uva">
                              
                        </button>
@@ -477,7 +463,7 @@
                         <div>
 
                             <button id="botaobombom" class="botao botao-nome botaodosbombons">
-                                    <p>Bombom</p><p class="toque">batata</p>
+                                    <p>Bombom</p><p class="toque">batata</p><p class="toque">batata</p>
                                 <img class="botao-fotos" src="imagens/bombom.png" alt="Foto de um Bombom">
                                  
                            </button>
@@ -495,6 +481,18 @@
 
         </section>
 
+
+
+
+        <footer class="rodape">
+            <h1>Domínio da Confeitaria</h1>
+            <br>
+        <a href="https://www.instagram.com/dominiodaconfeitaria/" class="nome-rodape">Instagram</a>
+        <br>
+        <br>
+        <div class="texto-rodape">&copy;Copyright  Domínio da Confeitaria - 2023</h1></div>
+        </div>
+        </footer>
 
 </body>
 </html>

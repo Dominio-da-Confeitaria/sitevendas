@@ -1,0 +1,29 @@
+.estudante-foto{
+    width: 29vw;
+}
+
+.estudante-icone{
+    width: 5vw;
+    padding: 3vw .8vw;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 2vw 0vw;
+    margin: 1vw;
+    border: 2px solid var(--joao);
+    border-radius: 20px;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 10vw;
+    font-weight: 700;
+}
+
+.metade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

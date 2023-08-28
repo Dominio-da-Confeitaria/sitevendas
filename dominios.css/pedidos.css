@@ -1,38 +1,14 @@
-.tiposdebolo{
+.tiposdebolo, .massasdebolo, 
+.coberturasdebolo, .recheiosdobolo{
     display: none;
     align-items: center;
 }
 
-.apenastiposdebolo{
+.apenastiposdebolo, .apenasmassasdebolo, 
+.apenascoberturasdebolo, .apenasrecheiosdebolo{
     display: flex;
-    justify-content: space-between;
 }
 
-.massasdebolo{
-    display: none;
-}
 
-.apenasmassasdebolo{
-    display: flex;
-    justify-content: space-between;
-}
-
-.coberturasdebolo{
-    display: none;
-}
-
-.apenascoberturasdebolo{
-    display: flex;
-    justify-content: space-between;
-}
-
-.recheiosdobolo{
-    display: none;
-}
-
-.apenasrecheiosdebolo{
-    display: flex;
-    justify-content: space-between;
-}
 
 

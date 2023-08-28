@@ -2,6 +2,8 @@
 @import url("dominios.css/produtos.css");
 @import url("dominios.css/botao.css");
 @import url("dominios.css/pedidos.css");
+@import url("dominios.css/rodape.css");
+@import url("dominios.css/grupo.css");
 
 :root{
     --fonte-principal: "Roboto Mono";
@@ -17,4 +19,5 @@
     font-weight: 400;
     font-family: var(--fonte-principal);
     background-color: var(--laranja);
+    color: var(--marrom);
 }

@@ -13,13 +13,6 @@
     text-align: center;
 }
 
-.botao-geral{
-    font-family: var(--fonte-principal);
-    font-weight: 500;
-    font-size: 16px;
-    border: 2px solid var(--joao);
-}
-
 .botao-nome{
     text-align: center;
     align-items: center;
@@ -57,21 +50,22 @@
 .botaodosenroladinhos, .botaodasbolinhasdequeijo, .botaodoskibes, 
 .botaodosbrigadeiros, .botaodosbeijinhos, .botaodosdoisamores,
 .botaodosbrigadeirosdemorango, .botaodosbrigadeirosdeuva, .botaodosbombons{
-    width: 30vw;
+    width: 31vw;
 }
 
 .salgados, .doces{
     display: none;
 }
 
-.primeiralinha, .segundalinha, .primeiraetapa, .produtosarruma{
+.primeiralinha, .segundalinha, .primeiraetapa, .produtosarruma,  .firstline{
     display: flex;
 }
 
 #quantidadecoxinhas, #quantidademinihamburguer, #quantidademinipastel, 
 #quantidadeenroladinho, #quantidadebolinhadequeijo, #quantidadekibe, 
 #quantidadebrigadeiro, #quantidadebeijinho, #quantidadedoisamores, 
-#quantidadebrigadeirodemorango, #quantidadebrigadeirodeuva, #quantidadebombom{
+#quantidadebrigadeirodemorango, #quantidadebrigadeirodeuva, #quantidadebombom,
+#kilosdebolo{
     display: none;
     justify-content: center;
     align-items: center;
@@ -81,9 +75,35 @@
 .coxinhas, .minihamburguer, .minipastel, 
 .enroladinho, .bolinhadequeijo, .kibe, 
 .brigadeiro, .beijinho, .doisamores, 
-.brigadeirodemorango, .brigadeirodeuva, .bombom{
+.brigadeirodemorango, .brigadeirodeuva, .bombom,
+.bolo-tipo{
     display: none;
     border: 1px solid var(--joao);
     border-radius: 10px;
     padding: 2vw 0;
 }
+
+.borda-botao{
+    background-color: var(--marrom);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 4vw .8vw;
+    display: flex;
+    text-align: center;
+    color: var(--marrom);
+}
+
+.botao-link{
+    text-decoration: none;
+    color: var(--laranja);
+    padding: 3vw;
+}
+
+.botao-espaco{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+

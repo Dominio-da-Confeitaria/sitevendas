@@ -3,7 +3,7 @@ botaodorecheiodechocolate.addEventListener('click',function(){
     if (recheiodechocolatebranco.style.display === 'none') {
         recheiodechocolatebranco.style.display = 'block';
         recheiodeprestigio.style.display = 'block';
-        botaorecheiochocolate.style.width = '30vw';
+        botaorecheiochocolate.style.width = '31vw';
         botaodorecheiodechocolate.style.backgroundColor = '#ffa500';
     } else {
         recheiodechocolatebranco.style.display = 'none';
@@ -19,7 +19,7 @@ botaodorecheiodechocolatebranco.addEventListener('click',function(){
     if (recheiodeprestigio.style.display === 'none') {
         recheiodeprestigio.style.display = 'block';
         recheiodechocolate.style.display = 'block';
-        botaorecheiochocolatebranco.style.width = '30vw';
+        botaorecheiochocolatebranco.style.width = '31vw';
         botaodorecheiodechocolatebranco.style.backgroundColor = '#ffa500';
     } else {
         recheiodeprestigio.style.display = 'none';
@@ -35,7 +35,7 @@ botaodorecheiodeprestigio.addEventListener('click',function(){
     if (recheiodechocolate.style.display === 'none') {
         recheiodechocolate.style.display = 'block';
         recheiodechocolatebranco.style.display = 'block';
-        botaorecheioprestigio.style.width = '30vw';
+        botaorecheioprestigio.style.width = '31vw';
         botaodorecheiodeprestigio.style.backgroundColor = '#ffa500';
     } else {
         recheiodechocolate.style.display = 'none';
